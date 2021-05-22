@@ -106,6 +106,12 @@ int main()
             mcf(txt);
             continue;
         }
+        
+        if (cmd == "rh") {
+            rh(txt);
+            continue;
+        }
+        
         if (cmd == "shownumspaces") {
             shownumspaces(txt);
             continue;
