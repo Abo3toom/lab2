@@ -112,8 +112,8 @@ int main()
             continue;
         }
         
-        if (cmd == "shownumspaces") {
-            shownumspaces(txt);
+        if (cmd == "mcf") {
+            mcf(txt);
             continue;
         }
         std::cerr << "Unknown command: " << cmd << std::endl;
