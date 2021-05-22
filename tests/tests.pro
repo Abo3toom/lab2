@@ -23,7 +23,9 @@ SOURCES += main.cpp \
     ../app/remove_all.cpp \
     ../app/append_line.cpp \
     ../app/m.cpp \
-    ../app/shownumspaces.cpp
+    ../app/shownumspaces.cpp \
+    ../app/rh.cpp
+
 
 HEADERS += \
     ../app/common.h \
@@ -34,6 +36,7 @@ HEADERS += \
     mcf.h \
     shownumspaces.h \
     load.h \
+    rh.h
 
 INCLUDEPATH += ../app
  
