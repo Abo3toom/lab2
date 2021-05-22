@@ -1,5 +1,5 @@
 #include "save.h"
-#include "shownumspaces.h"
+#include "mcf.h"
 #include "m.h"
 #include "rh.h"
 #include "move_next_line_begin.h"
