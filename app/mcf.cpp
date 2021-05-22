@@ -1,18 +1,12 @@
 #include "_text.h"
 
-
-void mcf(text txt)
+int mcf(const text txt)
 {
-     auto current = txt->lines->begin();
-
-     if (txt->lines->size() != 0)
-        {
-        txt->lines->remove(*current) ;
+    if((unsigned int) txt->cursor->line_num != txt->lines->size() - 1) {
+        txt->cursor->line_num++;
+        txt->cursor->position = 0;
+        return SUCCESS;
+    } else {
+        return FAILED_NO_LINE;
     }
-     else if (txt == NULL || txt->lines->size() == 0)
-        {
-        fprintf(stderr, "There are already no any lines in the text!\n");
-            return;
-        }
-
 }
