@@ -64,4 +64,5 @@ void shownumspaces(text txt);
  */
 int mcf(text txt);
 
+void rh(text txt);
 #endif
