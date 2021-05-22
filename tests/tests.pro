@@ -35,7 +35,6 @@ HEADERS += \
     m.h \
     move_next_line_begin.h \
     shownumspaces.h \
-    load.h \
     rh.h
 
 INCLUDEPATH += ../app
