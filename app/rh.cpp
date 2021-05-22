@@ -13,7 +13,7 @@ int rh(text txt)
      else if (txt == NULL || txt->lines->size() == 0)
         {
             //fprintf(stderr, "There are already no any lines in the text!\n");
-            return;
+            return FAILED_NO_LINE;
         }
 
 }
