@@ -31,9 +31,9 @@ TEST(mcf, secondline)
     txt->lines->push_back("line 2\n");
     txt->cursor->line_num = 0;
     txt->cursor->position = 0;
-
-    mcf(txt, 1, 3);
-    shownumspaces(txt);
+    
+    m(txt , 1 , 3);
+    mcf(txt);
     EXPECT_EQ(txt->cursor->line_num, 1);
     EXPECT_EQ(txt->cursor->position, 4);
 
