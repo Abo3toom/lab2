@@ -53,7 +53,7 @@ int m(text txt, int line_num, int cursor_pos);
  * @param txt текст
  * @returns код исполнения
  */
-int shownumspaces(text txt);
+int mcf(text txt);
 
 /**
  * Перемещаем курсор в заданную позицию
