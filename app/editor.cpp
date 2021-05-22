@@ -102,8 +102,8 @@ int main()
             continue;
         }
 
-        if (cmd == "mcf") {
-            mcf(txt);
+        if (cmd == " move_next_line_begin") {
+             move_next_line_begin(txt);
             continue;
         }
         
