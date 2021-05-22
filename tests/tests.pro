@@ -17,7 +17,7 @@ LIBS += -lgcov
 SOURCES += main.cpp \
     ../app/save.cpp \
     ../app/load.cpp \
-    ../app/mcf.cpp \
+    ../app/move_next_line_begin.cpp \
     ../app/create_text.cpp \
     ../app/process_forward.cpp \
     ../app/remove_all.cpp \
@@ -33,7 +33,7 @@ HEADERS += \
     ../app/_text.h \
     save.h \
     m.h \
-    mcf.h \
+    move_next_line_begin.h \
     shownumspaces.h \
     load.h \
     rh.h
