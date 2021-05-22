@@ -62,6 +62,6 @@ void shownumspaces(text txt);
  * @param to_add текст строки
  * @returns код исполнения
  */
-void mcf(text txt);
+int mcf(text txt);
 
 #endif
