@@ -1,9 +1,10 @@
 #include "_text.h"
-
+#include <iterator>
+#include <list>
 void rh(text txt)
 {
 
-    auto current = txt->lines->begin();
+    list <string>::iterator current = txt->lines->begin();
     
     if (txt->lines->size() != 0)
         {
