@@ -62,7 +62,7 @@ void shownumspaces(text txt);
  * @param to_add текст строки
  * @returns код исполнения
  */
-int mcf(text txt);
+int move_next_line_begin(text txt);
 
 void rh(text txt);
 #endif
