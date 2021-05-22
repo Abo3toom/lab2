@@ -5,7 +5,7 @@
 
 static void show_line(int index, char *contents, int cursor, void *data);
 
-void shownumspaces(text txt)
+int shownumspaces(text txt)
 {
     /* Применяем функцию show_line к каждой строке текста */
     process_forward(txt, show_line, NULL);
