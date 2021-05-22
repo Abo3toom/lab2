@@ -1,7 +1,7 @@
 #include "_text.h"
 #include <iterator>
 #include <list>
-void rh(text txt)
+int rh(text txt)
 {
 
     list <string>::iterator current = txt->lines->begin();
