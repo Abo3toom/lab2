@@ -64,5 +64,5 @@ void shownumspaces(text txt);
  */
 int move_next_line_begin(text txt);
 
-void rh(text txt);
+int rh(text txt);
 #endif
