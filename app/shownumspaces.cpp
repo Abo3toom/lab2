@@ -20,7 +20,7 @@ static void show_line(int index, char *contents, int cursor, void *data)
     // calculate the spaces 
 
     int Spaces = 0;
-    for(int i = 0 ; (int)sizeof(contents) != '\0' ; i++)
+   for(int i = 0 ; contents[i] != '\0' ; i++)
     {
 	if (contents[i] == ' ')
       	{
@@ -28,7 +28,6 @@ static void show_line(int index, char *contents, int cursor, void *data)
 	}
     }
     printf("\n%d\n",Spaces);
-
 }
 
    
