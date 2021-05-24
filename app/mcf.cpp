@@ -6,4 +6,5 @@ int mcf(text txt)
     {
     txt->cursor->position++;
     }
+    return 0;
 }
