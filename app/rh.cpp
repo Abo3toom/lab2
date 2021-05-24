@@ -15,5 +15,6 @@ int rh(text txt)
             //fprintf(stderr, "There are already no any lines in the text!\n");
             return FAILED_NO_LINE;
         }
+    return 0;
 
 }
