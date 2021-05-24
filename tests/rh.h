@@ -16,7 +16,7 @@ TEST(rh , first_line)
     txt->lines->push_back("line 2\n");
 
     rh(txt);
-    EXPECT_EQ(txt->lines->size(), 2);
+    EXPECT_EQ(txt->lines->size(), static_cast<unsigned int>(2));
 }
 
 TEST(rh , no_lines)
@@ -26,5 +26,5 @@ TEST(rh , no_lines)
     txt->cursor->position = -1;
 
     rh(txt);
-    EXPECT_EQ(txt->lines->size(), 0);
+    EXPECT_EQ(txt->lines->size(), static_cast<unsigned int>(0));
 }
